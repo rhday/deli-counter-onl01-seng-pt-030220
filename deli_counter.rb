@@ -13,10 +13,12 @@ def line(customers)
   end
 end
 
-def take_a_number(katz_deli, new_customer)
-  katz_deli << new_customer
-  puts "Welcome, #{new_customer}. You are number #{katz_deli.length} in line."
+def take_a_number(line, new_customer)
+  line << new_customer
+  puts "Welcome, #{new_customer}. You are number #{line.length} in line."
 end
+
+now_serving()
 
 
 
