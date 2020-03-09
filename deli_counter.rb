@@ -15,6 +15,7 @@ end
 
 def take_a_number(line, new_customer)
   line << new_customer
+  puts "Welcome "
 end
 
 
